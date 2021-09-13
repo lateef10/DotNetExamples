@@ -8,6 +8,7 @@ namespace CQRS.Repository
 {
     public interface IProductRepository
     {
+        Task<Product> CreateProduct(Product product);
         Task<IEnumerable<Product>> GetAllProducts();
         Task<Product> GetProductById(int id);
         Task DeleteProductById(Product product);

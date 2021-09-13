@@ -18,7 +18,6 @@ C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\obj\Debug\net5.0\CQRS.csproj.AssemblyReference.cache
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\obj\Debug\net5.0\CQRS.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\obj\Debug\net5.0\CQRS.AssemblyInfoInputs.cache
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\obj\Debug\net5.0\CQRS.AssemblyInfo.cs
@@ -34,3 +33,7 @@ C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\obj
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\obj\Debug\net5.0\ref\CQRS.dll
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\obj\Debug\net5.0\CQRS.pdb
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\obj\Debug\net5.0\CQRS.genruntimeconfig.cache
+C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\System.Web.Http.dll
+C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
