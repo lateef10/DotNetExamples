@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CQRS.Queries
+namespace CQRS.Features.Queries
 {
     public class GetProductQueryHandler : IRequestHandler<GetProductQuery, IEnumerable<Product>>
     {

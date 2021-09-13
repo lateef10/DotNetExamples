@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CQRS.Queries
+namespace CQRS.Features.Queries
 {
     public class GetProductQuery : IRequest<IEnumerable<Product>>
     {

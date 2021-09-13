@@ -22,5 +22,16 @@ namespace CQRS.Repository
             var res = await _dbContext.products.ToListAsync();
             return res;
         }
+
+        public async Task<Product> GetProductById(int id)
+        {
+            return await _dbContext.products.FindAsync(id);
+        }
+
+        public async Task DeleteProductById(Product product)
+        {
+            _dbContext.products.Remove(product);
+            await _dbContext.SaveChangesAsync();
+        }
     }
 }
