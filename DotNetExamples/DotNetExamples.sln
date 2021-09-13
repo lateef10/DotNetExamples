@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{100697A4-72B0-4DFC-A80E-31D96BABD46C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS", "CQRS\CQRS\CQRS.csproj", "{AFD0463A-3750-4758-8181-A506B1CC3901}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD0463A-3750-4758-8181-A506B1CC3901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD0463A-3750-4758-8181-A506B1CC3901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD0463A-3750-4758-8181-A506B1CC3901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD0463A-3750-4758-8181-A506B1CC3901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFD0463A-3750-4758-8181-A506B1CC3901} = {100697A4-72B0-4DFC-A80E-31D96BABD46C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53E8A253-59CE-41D3-A417-E37039186B2A}
