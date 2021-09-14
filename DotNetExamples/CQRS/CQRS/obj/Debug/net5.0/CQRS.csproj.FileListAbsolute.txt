@@ -37,3 +37,7 @@ C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\System.Web.Http.dll
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\obj\Debug\net5.0\CQRS.csproj.AssemblyReference.cache
+C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Lateef\Desktop\Working Copy\DotNetExamples\DotNetExamples\CQRS\CQRS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll

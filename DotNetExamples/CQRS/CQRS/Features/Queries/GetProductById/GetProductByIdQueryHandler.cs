@@ -20,7 +20,7 @@ namespace CQRS.Features.Queries.GetProductById
 
         public async Task<Product> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
-            return await _productRepository.GetProductById(request.id);
+            return await _productRepository.GetByIdAsync(request.id);
         }
     }
 }

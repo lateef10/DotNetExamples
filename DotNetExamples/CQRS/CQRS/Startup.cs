@@ -33,6 +33,7 @@ namespace CQRS
         {
             services.AddDbContext<CqrsDbContext>(options => options.UseInMemoryDatabase("person"));
 
+            services.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
             services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddMediatR(Assembly.GetExecutingAssembly());

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace CQRS.Models
 {
-    public class Product
+    public class Product : EntityBase
     {
-        [Key]
-        public int Id { get; set; }
         public string Name { get; set; }
     }
 }

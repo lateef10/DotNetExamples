@@ -20,7 +20,7 @@ namespace CQRS.Features.Queries.GetAllProducts
 
         public async Task<IEnumerable<Product>> Handle(GetProductQuery request, CancellationToken cancellationToken)
         {
-            return await _productRepository.GetAllProducts();
+            return await _productRepository.GetAllAsync();
         }
     }
 }

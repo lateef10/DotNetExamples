@@ -22,14 +22,14 @@ namespace CQRS.Features.Commands.DeleteProduct
 
         public async Task<Unit> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
         {
-            var productToDelete = await _productRepository.GetProductById(request.Id);
+            var productToDelete = await _productRepository.GetByIdAsync(request.Id);
 
             if(productToDelete == null)
                 throw new HttpResponseException(HttpStatusCode.NotFound);
 
-            await _productRepository.DeleteProductById(productToDelete);
+            await _productRepository.DeleteAsync(productToDelete);
 
-            return Unit.Value; //Default return for void in MediatR
+            return Unit.Value; //default return for void in MediatR
         }
     }
 }

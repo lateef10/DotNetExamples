@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace CQRS.Repository
 {
-    public interface IProductRepository
+    public interface IProductRepository : IRepositoryBase<Product>
     {
-        Task<Product> CreateProduct(Product product);
-        Task<IEnumerable<Product>> GetAllProducts();
-        Task<Product> GetProductById(int id);
-        Task DeleteProductById(Product product);
+        Task<IEnumerable<Product>> GetProductsByName(string name);
     }
 }

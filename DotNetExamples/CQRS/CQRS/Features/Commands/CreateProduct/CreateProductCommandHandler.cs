@@ -1,4 +1,5 @@
-﻿using CQRS.Repository;
+﻿using CQRS.Models;
+using CQRS.Repository;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,7 @@ namespace CQRS.Features.Commands.CreateProduct
 
         public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            var newProduct = await _productRepository.CreateProduct(request.product);
+            var newProduct = await _productRepository.AddAsync(request.product);
 
             return newProduct.Id;
         }

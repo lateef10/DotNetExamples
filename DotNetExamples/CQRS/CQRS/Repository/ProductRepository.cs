@@ -8,38 +8,15 @@ using System.Threading.Tasks;
 
 namespace CQRS.Repository
 {
-    public class ProductRepository : IProductRepository
+    public class ProductRepository : RepositoryBase<Product>, IProductRepository
     {
-        private readonly CqrsDbContext _dbContext;
-
-        public ProductRepository(CqrsDbContext dbContext)
+        public ProductRepository(CqrsDbContext dbContext) : base(dbContext)
         {
-            _dbContext = dbContext;
         }
-
-        public async Task<IEnumerable<Product>> GetAllProducts()
+        public async Task<IEnumerable<Product>> GetProductsByName(string name)
         {
-            var res = await _dbContext.products.ToListAsync();
-            return res;
-        }
-
-        public async Task<Product> GetProductById(int id)
-        {
-            return await _dbContext.products.FindAsync(id);
-        }
-
-        public async Task<Product> CreateProduct(Product product)
-        {
-            _dbContext.products.AddAsync(product);
-            await _dbContext.SaveChangesAsync();
-
-            return product;
-        }
-
-        public async Task DeleteProductById(Product product)
-        {
-            _dbContext.products.Remove(product);
-            await _dbContext.SaveChangesAsync();
+            var productList = await _dbContext.products.Where(p => p.Name == name).ToListAsync();
+            return productList;
         }
     }
 }
